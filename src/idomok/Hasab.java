@@ -12,7 +12,7 @@ public class Hasab extends FaIdom{
 
     @Override
     public String toString() {
-        return super.toString()+" a oldal:"+a+" b oldal:"+b+" magassag:"+magassag; 
+        return super.toString()+" Hasab { a oldal:"+a+" b oldal:"+b+" magassag:"+magassag+"}"; 
     }
 
     @Override

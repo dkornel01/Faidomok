@@ -21,7 +21,7 @@ public abstract class FaIdom {
 
     @Override
     public  String toString() {
-        return "FaIdom" + "fajsuly=" + fajsuly;
+        return "---FaIdom" + "{ fajsuly=" + fajsuly+"}";
     }
     
     

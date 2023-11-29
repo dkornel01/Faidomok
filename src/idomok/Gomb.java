@@ -14,12 +14,12 @@ public class Gomb extends FaIdom{
 
     @Override
     public String toString() {
-        return super.toString()+" Sugar:"+sugar;
+        return super.toString()+" Gomb{ Sugar:"+sugar+"}";
     }
 
     @Override
     public double terfogat() {
-       return (sugar*sugar*sugar)*4.0*Math.PI;
+       return ((sugar*sugar*sugar)*4.0*Math.PI)/3;
     }
     
 

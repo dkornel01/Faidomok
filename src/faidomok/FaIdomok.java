@@ -14,7 +14,7 @@ public class FaIdomok {
         idomok.add(new Gomb(3));
         idomok.add(new Gomb(2));
         idomok.add(new Hasab(3,4,5));
-        idomok.add(new Hasab(1,2,3));
+        idomok.add(new Hasab(1,1,1));
         idomok.add(new Hasab(4,4,4));
         run();
     }
@@ -25,10 +25,10 @@ public class FaIdomok {
         System.out.println(idomok.get(2).toString());
         System.out.println(idomok.get(3).toString());
         System.out.println(idomok.get(4).toString());
-        System.out.println(osszSuly());
-        System.out.println(osszGombSuly());
-        System.out.println(minV());
-        System.out.println(maxV());
+        System.out.println(osszSuly()+ "ossz suly");
+        System.out.println(osszGombSuly()+" oszz gomb suly");
+        System.out.println(minV()+" minimum térfogat");
+        System.out.println(maxV()+ "maximum térfogat");
            
     }
     public double osszSuly(){
